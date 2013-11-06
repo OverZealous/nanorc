@@ -1,2 +1,3 @@
+COMMENT: "^#!.*"
 COMMENT: "(^|[[:space:]])//.*"
 COMMENT: start="/\*" end="\*/"

@@ -1,13 +1,13 @@
 s|^PLAIN:|color black|
 s|^FUNCTION:|color brightblue|
-s|^STRING:|color yellow|
+s|^STRING:|color red|
 s|^COMMENT:|color cyan|
 s|^TYPE:|color green|
 s|^BOOLEAN:|color brightcyan|
 s|^NUMBER:|color blue|
 s|^REGEXP:|color magenta|
 s|^VARIABLE:|color brightyellow|
-s|^OPERATOR:|color red|
+s|^OPERATOR:|color yellow|
 s|^KEYWORD:|color brightblack|
 s|^~KEYWORD:|icolor brightblack|
 s|^MACRO:|color brightyellow|

@@ -1,4 +1,4 @@
-syntax "java" "\.java$"
+syntax "java" "\.(java|groovy)$"
 
 # Class
 SECTION:  "class +[A-Za-z0-9]+ *((implements|extends) +[A-Za-z0-9.]+)?"
@@ -7,7 +7,7 @@ SECTION:  "class +[A-Za-z0-9]+ *((implements|extends) +[A-Za-z0-9.]+)?"
 ESCAPE:   "@[A-Za-z]+"
 
 +FUNCTION
-TYPE:     "\<(boolean|byte|char|double|float|int|long|short|String|void)\>"
+TYPE:     "\<(boolean|byte|char|double|float|int|long|short|String|void|def)\>"
 KEYWORD:  "\<(case|catch|default|do|else|finally|for|if)\>"
 KEYWORD:  "\<(new|return|switch|this|throw|transient|try|while)\>"
 KEYWORD:  "\<(abstract|class|extends|final|implements|import|instanceof)\>"
